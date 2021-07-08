@@ -54,12 +54,6 @@ behaviors {
         layers = <0>;
 
     };
-    combo_pass {
-        timeout-ms = <50>;
-        key-positions = <10 11>;
-        bindings = <&mt LGUI BSLH>;
-        layers = <2>;
-    };
 };
 
 };
@@ -94,7 +88,6 @@ behaviors {
    &trans    &trans    &trans    &trans      &trans      &trans
                         >;
                 };
-
                 lower_layer {
                         bindings = <
    &kp PG_UP  &kp HOME    &kp UP   &kp END    &kp LBKT   &kp RBKT &kp UNDER  &kp PLUS  &kp TILDE  &kp PIPE
