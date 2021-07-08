@@ -8,6 +8,12 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define DEFAULT  0
+#define NUM      1
+#define LOWER    2
+#define RAISE    3
+#define SET      4
+
 / {
 
 behaviors {
@@ -57,12 +63,6 @@ behaviors {
 };
 
 };
-
-#define DEFAULT  0
-#define NUM      1
-#define LOWER    2
-#define RAISE    3
-#define SET      4
 
         keymap {
                 compatible = "zmk,keymap";
