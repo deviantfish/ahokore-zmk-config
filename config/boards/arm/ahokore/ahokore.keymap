@@ -26,13 +26,13 @@ behaviors {
         timeout-ms = <50>;
         key-positions = <18 19>;
         bindings = <&kp DEL>;
-        layers = <0 1 2 3 4>;
+        layers = <0 1 2>;
     };
     combo_bspc {
         timeout-ms = <50>;
         key-positions = <8 9>;
         bindings = <&kp BKSP>;
-        layers = <0 1 2 3 4>;
+        layers = <0 1 2>;
     };
     combo_tab {
         timeout-ms = <50>;
@@ -44,7 +44,13 @@ behaviors {
         timeout-ms = <50>;
         key-positions = <0 1>;
         bindings = <&kp ESC>;
-        layers = <0>;
+        layers = <0 1 2>;
+    };
+    combo_pass {
+        timeout-ms = <50>;
+        key-positions = <0 1>;
+        bindings = <&mt LGUI BSLH>;
+        layers = <2>;
     };
 };
 
@@ -62,7 +68,7 @@ behaviors {
    &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P
    &hm LCTRL A &hm LALT S &hm LGUI D &hm LSHFT F &kp G   &kp H &hm RSHFT J  &hm RGUI K  &hm RALT L  &hm RCTRL APOS
    &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
-   &mo 1 &mo 2 &kp RET &kp SPC &mo 3 &kp RALT
+   &mo 1 &mo 2 &kp RET &kp SPC &mo 2 &kp RALT
                         >;
                 };
 
