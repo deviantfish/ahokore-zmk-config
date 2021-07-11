@@ -90,7 +90,7 @@ behaviors {
                         bindings = <
    &kp PG_UP  &kp HOME    &kp UP   &kp END    &kp LBKT   &kp RBKT &kp UNDER  &kp PLUS  &kp TILDE  &kp PIPE
    &kp PG_DN  &kp LEFT    &kp DOWN &kp RIGHT  &kp LPAR   &kp RPAR &kp MINUS  &kp EQUAL &kp GRAVE  &kp SEMI
-   &kp LG(tab) &kp LG(LS(tab))  &trans   &trans     &kp LBRC   &kp RBRC &trans     &trans    &trans     &kp BSLH
+   &kp LG(tab) &trans  &trans   &trans     &kp LBRC   &kp RBRC &trans     &trans    &trans     &kp BSLH
    &trans   &trans    &trans     &trans   &mo 4   &trans
                         >;
                 };
